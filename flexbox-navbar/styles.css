@@ -95,4 +95,30 @@ section, footer {
     .flex-nav li {
         flex-basis: 100%;
     }
+
+    /*Turn wrapper to flexbox container*/
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .wrapper > * {
+        order: 9999;
+    }
+
+    .flex-nav {
+        order: 1;
+    }
+
+    .top {
+        order: 2;
+    }
+
+    .details {
+        order: 3;
+    }
+
+    .signup {
+        order: 4;
+    }
 }
