@@ -70,6 +70,14 @@
         </footer>
 
     </div>
+    <script>
+        {
+            document.querySelector('.toggleNav').addEventListener('click', _ => {
+                const navItems = document.querySelector('.flex-nav ul');
+                navItems.classList.toggle('open');
+            });
+        }
+    </script>
 </body>
 
 </html>

@@ -102,6 +102,7 @@ section, footer {
         flex-direction: column;
     }
     
+    /*Reorder flex items for small screen*/
     .wrapper > * {
         order: 9999;
     }
@@ -120,5 +121,17 @@ section, footer {
 
     .signup {
         order: 4;
+    }
+
+    .toggleNav {
+        display: block;
+    }
+
+    .flex-nav ul {
+        display: none;
+    }
+
+    .flex-nav ul.open {
+        display: flex;
     }
 }
