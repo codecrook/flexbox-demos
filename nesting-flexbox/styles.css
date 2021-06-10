@@ -41,3 +41,17 @@ a:hover {
     padding: 0; 
     display: flex;
 }
+
+.slider-nav li {
+    flex: 2;
+    border: 1px solid red;
+    display: flex;
+}
+
+.slider-nav li.arrow {
+    flex: 1;
+}
+
+.slider-nav a {
+    flex: 1;
+}
